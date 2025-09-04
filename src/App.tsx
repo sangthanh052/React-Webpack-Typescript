@@ -4,7 +4,8 @@ import './assets/styles/app.css'
 import './assets/styles/app.scss'
 
 const App: FC = () => {
-  const [fullname, setFullname] = useState('ShangDev')
+  const [fullname] = useState('ShangDev')
+
   console.log(fullname)
   return (
     <div>
